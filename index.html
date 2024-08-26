@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="laptop">
+      <table id="nav">
+        <tr>
+          <td class="nav-content" valign="bottom" align="middle">
+            <span id="header">facebook</span>
+          </td>
+          <td class="nav-content" align="middle">
+            <form action="">
+              <table style="margin-right: 50px">
+                <tr>
+                  <td>
+                    <label for="email" class="header-lable"
+                      >Email or Phone</label
+                    >
+                  </td>
+                  <td>
+                    <label for="pass" class="header-lable">Password</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="text" id="email" class="header-form" /></td>
+                  <td>
+                    <input type="password" id="pass" class="header-form" />
+                  </td>
+                  <td><input type="submit" value="Log In" id="login-btn" /></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Forgotten password?</td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </table>
+      <div id="page">
+        <table id="content">
+          <tr>
+            <td class="content-body" id="content-left">
+              <p id="def-para">
+                Facebook helps you connect <br />
+                and share with the people in <br />
+                your life.
+              </p>
+              <img src="./images/image.png" alt="" id="fb-image" />
+            </td>
+            <td class="content-body form" valign="top">
+              <div class="form">
+                <h1>Create an account</h1>
+                <p id="free-para">It's free and always will be.</p>
+                <form id="acc-form" action="">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="First Name"
+                      class="details-input half-length"
+                      id="first-name"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Last Name"
+                      class="details-input half-length"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Mobile number or email address"
+                      class="details-input full-length"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="password"
+                      placeholder="New Password"
+                      class="details-input full-length"
+                    />
+                  </div>
+                  <table>
+                    <tr>
+                      <td>
+                        <label for="birthdate">Birthday</label><br />
+                        <select name="day" id="day" class="details-input">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="14">14</option>
+                        </select>
+                        <select name="month" id="month" class="details-input">
+                          <option value="Jan">Jan</option>
+                          <option value="Feb">Feb</option>
+                          <option value="Oct">Oct</option>
+                        </select>
+                        <select name="year" id="year" class="details-input">
+                          <option value="2004">2004</option>
+                          <option value="2005">2005</option>
+                          <option value="2006">2006</option>
+                        </select>
+                      </td>
+                      <td>
+                        <a href="#" id="birthday-qn"
+                          >Why I need to provide my <br />
+                          birthday?</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                  <div>
+                    <input
+                      type="radio"
+                      value="Male"
+                      id="male"
+                      class="radio-btn"
+                    />
+                    <label for="male" class="radio-label">Male</label>
+                    <input
+                      type="radio"
+                      value="Female"
+                      id="female"
+                      class="radio-btn"
+                    />
+                    <label for="female" class="radio-label">Female</label>
+                  </div>
+                  <div id="terms-para">
+                    By clicking Create an account you agree to our Terms and
+                    <br />
+                    confirm that you have read our Data Policy, including our
+                    cookiee <br />
+                    Policy. You may receive sms message notifications from
+                    <br />
+                    Facebook and can opt out at any time.
+                  </div>
+                  <input
+                    type="submit"
+                    value="Create an account"
+                    class="details-input"
+                    id="submit-btn"
+                  />
+                  <br />
+                  <a href="#" id="create-link">Create a page </a>
+                  <span id="link-text">for a celebrity, band or business.</span>
+                </form>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="mobile">
+      <img src="./images/MobileImage.png" alt="" id="mobile-image" />
+      <center>
+        <span>English &#x2022; اردو &#x2022; <span id="more-text">More...</span></span>
+        <form action="">
+          <input type="text" id="email" placeholder="Phone number or email address" class="inp"/><br />
+          <input type="password" id="pass" placeholder="Password" class="inp"/><br />
+          <input type="submit" value="LOG IN" class="btn" id="login-btn"/><br />
+          <span id="forgot">Forgotten password?</span>
+          <table><tr>
+            <td style="width:47%"><hr/></td>
+            <td style="vertical-align:middle; text-align: center" id="or-text"> OR </td>
+            <td style="width:47%"><hr/></td>
+            </tr></table>
+            <input type="submit" value="CREATE NEW FACEBOOK ACCOUNT" class="btn" id="create-btn"/><br />
+        </form>
+      </center>
+    </div>
+  </body>
+</html>
